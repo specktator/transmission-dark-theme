@@ -1,0 +1,45 @@
+body {color: #CCC;
+  background-color:black;
+  border:none !important;
+}
+div#toolbar{
+  background-color: #000;
+  background-image: none;
+  border-color:#aaa;
+  border:none;
+  margin-bottom: 1px;
+}
+div#torrent_container{
+  border:none;
+}
+#statusbar{
+  background-image:none;
+  background-color:black;
+  border:none none;
+}
+ul.torrent_list li.torrent {
+    border-bottom: none;
+    padding: 4px 30px 5px 14px;
+    color: green;
+    background-color: #000;
+}
+ul.torrent_list li.torrent:hover,ul.torrent_list li.torrent.even:hover {background-color:#222}
+ul.torrent_list li.torrent div.torrent_name {
+    color: greenyellow;
+}
+ul.torrent_list li.torrent.even {
+    background-color: #021;
+}
+ul.torrent_list li.torrent.selected {
+    background-color: #137;
+}
+div#torrent_container{
+  background-color:black;
+}
+tr.inspector_peer_entry.odd {
+    background-color: #123;
+}
+ul.torrent_list li.torrent.compact div.torrent_name {
+    color:greenyellow !important;
+}
+
