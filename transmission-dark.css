@@ -1,4 +1,8 @@
-body {color: #CCC;
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,700,500);
+
+body {
+  font: 62.5% "orbitron", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  color: #CCC;
   background-color:black;
   border:none !important;
 }
